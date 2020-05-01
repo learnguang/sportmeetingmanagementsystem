@@ -13,7 +13,13 @@ SpringMVC+Spring+Mybatis+SpringSecurity+Bootstrap
 IntelliJ IDEA 2020.1 + MySQL 8.0 + Tomcat 9.0.31
 
 ## 运行指导
-待续...
+1. 数据库配置：
+数据库版本：MySQL 8.0
+登录账号：root；登录密码：123456
+创建一个名称为“smms”的数据库，并将smms.sql文件运行就能导入表和数据
+
+2. IntelliJ IDEA配置：
+需要安装Lombook插件，更新maven，并配置Tomcat 9.0服务器
 
 ## 总结
 设计围绕着运动会信息管理进行展开，采用主流的SSM框架，结合安全框架SpringSecurity、前端页面框架Bootstrap、jQuery和JavaScript技术进行开发。
